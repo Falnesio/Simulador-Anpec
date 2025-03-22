@@ -13,4 +13,6 @@ Simulador para estudar a Anpec e automaticamente verificar a sua nota.
 
 Se curtiu mande pix para pix@falnes.io
 
-![[qr-code-plus.png]]
+
+![200](./assets/qr-code-plus.svg)
+
