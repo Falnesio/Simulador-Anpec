@@ -1,0 +1,1 @@
+<iframe id='kofiframe' src='https://ko-fi.com/falnesio/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:70%;padding:4px;background:#f9f9f9;' height='650' title='falnesio'></iframe>

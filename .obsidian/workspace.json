@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "eda1a315c7745de1",
+    "type": "split",
+    "children": [
+      {
+        "id": "75effd7e4d0d55b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e014014ca048be02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Respostas/Respostas 2025.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Respostas 2025"
+            }
+          },
+          {
+            "id": "7ec3d1c32848ae15",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Regras da Anpec/Exame_2025-Manual_do_Candidato-v20240513.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Exame_2025-Manual_do_Candidato-v20240513"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f54221fb095c956a",
+    "type": "split",
+    "children": [
+      {
+        "id": "04601e1e5245b8cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac63ac30ebef20ea",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "64e6a02201b7a0da",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "d86d0e3e8dc4e273",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 260.5
+  },
+  "right": {
+    "id": "18145197846cb782",
+    "type": "split",
+    "children": [
+      {
+        "id": "98b54603ef9047cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f74b91a1f08ec0b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para README"
+            }
+          },
+          {
+            "id": "134a2fcda647abe2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "42a11627a5ec7690",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de README"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 601.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-projects:Open projects": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "open-gate:Anpec": false,
+      "open-gate:Gabaritos": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "e014014ca048be02",
+  "lastOpenFiles": [
+    "README.md",
+    "Resultado.md",
+    "Para não publicar/A fazer.md",
+    "Regras da Anpec/Exame_2025-Manual_do_Candidato-v20240513.pdf",
+    "Gabaritos/Gabarito 2025.md",
+    "Respostas/Respostas 2025.md",
+    "assets/template-cartao-resposta.md",
+    "Para não publicar/2025-03-19.md",
+    "assets/kofi.md",
+    "assets/qr-code-plus.svg",
+    "assets/template-cartao-gabarito.md",
+    "Para não publicar/mai bonito.md",
+    "Para não publicar/mai bonito.pdf",
+    "Para não publicar/Resultado.pdf",
+    "Para não publicar/Sem título.md",
+    "Gabaritos/Gabarito ANO.md",
+    "Respostas/Respostas ANO 2025-03-21.md",
+    "Respostas/Respostas ano  realizada 2025-03-20 23h22.md",
+    "Respostas/Respostas (insira ano) 2025-03-20.md",
+    "assets",
+    "Para não publicar",
+    "Provas/exame2025/Economia Brasileira_ Objetiva.pdf",
+    "Provas/exame2025/Economia Brasileira_ Discursiva.pdf",
+    "Provas/exame2025/Gabarito 2025",
+    "Provas/exame2024/Gabarito 2024",
+    "Provas/exame2024/Exame ANPEC-2024 - Estati╠üstica.pdf"
+  ]
+}

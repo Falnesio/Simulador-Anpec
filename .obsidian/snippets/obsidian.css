@@ -1,0 +1,16 @@
+.iniciar-anpec-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #3e8e41;
+    transition: all 0.3s ease;
+}
+
+.iniciar-anpec-button:hover {
+    background-color: white;
+    color: #45a049;
+    border-color: #2d6b2f;
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}

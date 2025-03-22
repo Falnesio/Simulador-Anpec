@@ -1,0 +1,142 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "Respostas ano  realizada {{date:YYYY-MM-DD}} {{time:HH}}h{{time:mm}}",
+      "templates": [
+        "assets/template-cartao-resposta.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Respostas",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "brasileira": {
+                "hide": true
+              },
+              "estatistica": {
+                "hide": true
+              },
+              "macroeconomia": {
+                "hide": true
+              },
+              "matematica": {
+                "hide": true
+              },
+              "microeconomia": {
+                "hide": true
+              },
+              "tipo": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "name": {
+                "width": 385
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "6d179949-d23c-48c8-8df5-ddbc82de3f93",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "e7fddabf-0ca7-4f49-b450-854cccb3b0af",
+      "name": "Cartões Resposta"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "Gabarito ano",
+      "templates": [
+        "assets/template-cartao-gabarito.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Gabaritos",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "brasileira": {
+                "hide": true
+              },
+              "estatistica": {
+                "hide": true
+              },
+              "macroeconomia": {
+                "hide": true
+              },
+              "matematica": {
+                "hide": true
+              },
+              "microeconomia": {
+                "hide": true
+              },
+              "tipo": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "1268e100-b8ab-4d31-b730-fb83201df7ac",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "4b565650-12a8-4495-9fd9-ba1aa5626a52",
+      "name": "Gabaritos"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

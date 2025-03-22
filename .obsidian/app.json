@@ -1,0 +1,10 @@
+{
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 55
+  },
+  "alwaysUpdateLinks": true,
+  "propertiesInDocument": "hidden"
+}

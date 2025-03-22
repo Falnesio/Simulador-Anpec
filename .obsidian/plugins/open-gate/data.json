@@ -1,0 +1,27 @@
+{
+  "uuid": "jc9ltqp095fcwvjkq11m7c",
+  "gates": {
+    "aHR0cHM6Ly93d3cuYW5wZWMub3JnLmJyL25vdm9zaXRlL2JyL2V4YW1l": {
+      "id": "aHR0cHM6Ly93d3cuYW5wZWMub3JnLmJyL25vdm9zaXRlL2JyL2V4YW1l",
+      "title": "Anpec",
+      "icon": "<svg viewBox=\"0 0 100 100\"><image href=\"https://icon.horse/icon/www.anpec.org.br\" height=\"100\" width=\"100\" /></svg>",
+      "hasRibbon": true,
+      "position": "center",
+      "profileKey": "open-gate",
+      "url": "https://www.anpec.org.br/novosite/br/exame",
+      "zoomFactor": 1,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0/HBpt3US8-18"
+    },
+    "aHR0cHM6Ly9leGFtZS5hbnBlYy5vcmcuYnIvaW5kZXgucGhwP3I9c2l0ZS9wcm92YXNBbnRlcmlvcmVz": {
+      "id": "aHR0cHM6Ly9leGFtZS5hbnBlYy5vcmcuYnIvaW5kZXgucGhwP3I9c2l0ZS9wcm92YXNBbnRlcmlvcmVz",
+      "title": "Gabaritos",
+      "icon": "<svg viewBox=\"0 0 100 100\"><image href=\"https://icon.horse/icon/exame.anpec.org.br\" height=\"100\" width=\"100\" /></svg>",
+      "hasRibbon": true,
+      "position": "center",
+      "profileKey": "open-gate",
+      "url": "https://exame.anpec.org.br/index.php?r=site/provasAnteriores",
+      "zoomFactor": 1,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0/HBpt3US8-18"
+    }
+  }
+}
