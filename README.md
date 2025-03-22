@@ -2,7 +2,8 @@
 
 Simulador para estudar a Anpec e automaticamente verificar a sua nota.
 
-[[Inicie Aqui!!!]]
+
+[Inicie Aqui!!!](Inicie Aqui!!!.md)
 
 
 
