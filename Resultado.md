@@ -1,6 +1,6 @@
 ---
-respostas: "[[Respostas/Respostas 2025.md|Respostas 2025]]"
-gabarito: "[[Gabaritos/Gabarito 2025.md|Gabarito 2025]]"
+respostas: "[[Respostas 2025]]"
+gabarito: "[[Gabarito 2024]]"
 peso:
   macroeconomia: 20
   microeconomia: 20
@@ -10,18 +10,19 @@ peso:
   discursiva: 20
 nota_discursiva: 0
 mostrar_gabarito: false
+obsidianUIMode: preview
 ---
 
 Escolha a sua folha de respostas e o gabarito:
 ```dataviewjs
-const respostas = dv.pages('"Respostas"').file.link
-const gabaritos = dv.pages('"Gabaritos"').file.link
+const respostas = dv.pages('"Respostas"').file.name.map(item => "[["+item+"]]")
+const gabaritos = dv.pages('"Gabaritos"').file.name.map(item => "[["+item+"]]")
 
-let dropdownresposta = "`INPUT[suggester("
+let dropdownresposta = "`INPUT[inlineSelect("
 const options_respostas = respostas.map(resposta => `option(${resposta})`);
 dropdownresposta += options_respostas.join(',') + '):respostas]`'
 
-let dropdowngabarito = "`INPUT[suggester("
+let dropdowngabarito = "`INPUT[inlineSelect("
 const options_gabarito = gabaritos.map(gabarito => `option(${gabarito})`);
 dropdowngabarito += options_gabarito.join(',') + ',showcase):gabarito]`'
 
@@ -80,8 +81,8 @@ if (!respostas || !gabarito) {
   dv.el("p", "🔴 Arquivos não encontrados. Verifique os links.");
 } else {
   const calcularPontos = (gabaritoResposta, minhaResposta) => {
-    if (typeof gabaritoResposta === 'number') {
-      return parseFloat(minhaResposta) === gabaritoResposta ? 1 : 0;
+    if (!isNaN(parseFloat(gabaritoResposta))) {
+      return parseFloat(minhaResposta) === parseFloat(gabaritoResposta) ? 1 : 0;
     } else {
       if (gabaritoResposta === 'A') {return "🅰️"};
       let divisor = 0
@@ -92,7 +93,7 @@ if (!respostas || !gabarito) {
       }
       if (divisor === 0) {return "🅰️"};
       const gabaritoSplit = gabaritoResposta.split(',');
-      const minhaSplit = minhaResposta.split(',');
+      const minhaSplit = isNaN(parseFloat(minhaResposta)) ? minhaResposta.split(',') : "E,E,E,E,E";
       let pontos = 0;
       for (let i = 0; i < gabaritoSplit.length; i++) {
         if (gabaritoSplit[i] === 'A') continue; // Ignora anulados

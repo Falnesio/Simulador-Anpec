@@ -1,5 +1,5 @@
 ---
-ano: 
+ano: 2024
 tipo: Resposta
 macroeconomia:
   Q01: ""
@@ -56,30 +56,54 @@ microeconomia:
   Q08: ""
   Q09: ""
   Q10: ""
+obsidianUIMode: preview
 ---
 <%* 
-const date = tp.date.now("YYYY-MM-DD"); 
+const date = tp.date.now("YYYY-MM-DD HHmmss"); 
 await tp.file.rename(`Respostas ANO ${date}`);
 %>
 
-> Abaixo marque o ano da prova (ex.2025)
+> Abaixo marque o ano da prova (ex.2025) para aparecer os links dos PDFs com as perguntas das provas do ano que deseja.
 
-ano: `INPUT[number(placeholder(insira ano)):ano]`
-Tipo de cartão: `INPUT[text:tipo]`
+ano: `INPUT[inlineSelect(option(2024),option(2025)):ano]`
+Tipo de cartão: Resposta
 
-> Abaixo coloque as respostas das perguntas das provas.
+Segure **ctrl** e **alt** no teclado ao clicar abaixo para abrir o PDF em uma aba ao lado.
+```dataviewjs
+const pdfFiles = app.vault.getFiles().filter(file => 
+    file.extension === 'pdf' && 
+    file.path.includes('Provas') && 
+    !file.path.includes('Gabarito')
+);
+
+const itensPorAno = pdfFiles.reduce((acc, file) => {
+    const yearMatch = file.basename.match(dv.current().ano);
+    if (yearMatch) {
+        const year = yearMatch[0];
+        if (!acc[year]) acc[year] = [];
+        acc[year].push(file);
+    }
+    return acc;
+}, {});
+
+for (const ano in itensPorAno) {
+    dv.header(5, ano); 
+    dv.list(itensPorAno[ano].map(file => dv.fileLink(file.path)));
+}
+```
+
+> Abaixo coloque as respostas das perguntas das provas, de acordo com o tipo de questão.
 > 
-> Caso for número escreva o número de 0 a 99. (ex.13)
+> Caso seja uma questão numérica, escreva entre o número de 0 a 99. (Ex.:13). Caso não queira deixar em branco a questão, apenas deixe em branco. 
 > 
-> Caso for verdadeiro e falso coloque V para verdadeiro e F para falso. Se não quiser responder deixe em branco na virgula correta. (ex. Q04 V,V,F, ,V)
-> No exemplo temos para a pergunta Q04 as seguintes respostas:
+> Caso seja uma questão de verdadeiro ou falso, coloque V para verdadeiro e F para falso. Se não quiser responder deixe em branco, entre as virgulas. (Ex.: Q04 V,V,F==, ,==V). Neste exemplo temos para a pergunta Q04 as seguintes respostas:
 > 1. Verdadeiro
 > 2. Verdadeiro
 > 3. Falso
-> 4. Em Branco
+> 4. ==Em Branco==
 > 5. Verdadeiro
 
-> Após finalizar a simulação, vá para [[Resultado]] para conferir como foi.
+> Após finalizar a simulação, acesse este link com o > [[Resultado]] <.
 
 > **Pode simular sua prova abaixo:**
 
