@@ -28,9 +28,9 @@ Pode também baixar usando o git se souber como.
 
 Após tiver o arquivo extraído, pode abrir o Obsidian e escolher abrir uma pasta como um cofre. Selecionará a pasta desse projeto. Irá pedir para aceitar os plugins que estão associados ao projeto, terá que aceitar para que o projeto funcione corretamente.
 
+<img src="./assets/Pasted image 20250322203358.png">
+<img src="./assets/Pasted image 20250322214857.png">
 
-![[Pasted image 20250322203358.png]]
-![[Pasted image 20250322214857.png]]
 # Onde ir após abrir o projeto
 ## [Inicie Aqui!!!](Inicie%20Aqui!!!.md)
 
