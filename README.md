@@ -64,10 +64,19 @@ Se **curtiu** e quer **incentivar melhorias** nesse projeto mande um pix para pi
 	a. O cartão resposta é onde você preenche suas respostas ao fazer o simulado.
 	Já o gabarito são as respostas certas da Anpec. 
 8. O que fazer quando der erro? (Tipos de erro)
+	a. Se der erro pode entrar em contato comigo. Existem vários locais online (a maioria em inglês) para ajudar a resolver problemas envolvendo o Obsidian ou seus plugins.
 9. Eu posso gerar vários cartões resposta?
+	a. Pode gerar vários cartões resposta.
 10. Os cartões resposta ficam gravados?
+	a. Assim que escrever sua resposta, ela fica gravada.
 11. Quanta privacidade tenho?
+	a. Ao baixar o projeto tudo fica guardado localmente.
 12. Onde está a prova?
-	1. As provas de 2024 e 2024 estão no formato pdf na pasta provas. 
+	a. As provas de 2024 e 2024 estão no formato pdf na pasta provas. 
+
+# Imagem da página de [Resultados](Resultados.md)
+
+<img src="./assets/Pasted image 20250325205200.png">
+
 
 
